@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    
+    <script src="login.js"></script>
+    <link href="login.css" rel="stylesheet" type="test/css" />
+    <head>    
+        <title>Authentication</title>
+    </head>
+
+    <body>
+        <Center>
+        <H1>
+            Welcome to Mission Control
+        </H1>
+        <br>
+        <p id="loginStatus" class="loginID">Please Enter Information.</p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            User Name:  <input type= "text" id="username" /> <br>
+            Password:   <input type="text" id="password" /> <br>
+            Badge Number:   <input type="number" id="numPart" /> <br>
+            <input type="submit" onclick="checkCreds();" />
+        </form>
+        </Center>
+    </body>
+
+</html>
